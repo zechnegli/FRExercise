@@ -196,7 +196,7 @@ extension TableViewCell {
       
       //top ImageSpacing
       let topSpacingConstraint: CGFloat = 0
-      let topSpacingheightRatio: CGFloat = 0.06
+      let topSpacingheightRatio: CGFloat = 0.04
     
       //left ImageSpacing
       let leftImageSpacingConstraint: CGFloat = 0
@@ -208,13 +208,13 @@ extension TableViewCell {
       
       //title view
       let titleViewHeightConstraint: CGFloat = 0
-      let titleViewFontSize: CGFloat = 20
+      let titleViewFontSize: CGFloat = 17
     
       //location view
-      let locationViewFontSize: CGFloat = 17
+      let locationViewFontSize: CGFloat = 14
       
       //time view
-      let timeViewFontSize: CGFloat = 17
+      let timeViewFontSize: CGFloat = 14
         
         
       //location spacing

@@ -46,10 +46,7 @@
 		3F0AFADF25F5FE2D0025519D /* PerformersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AFA6725F3067D0025519D /* PerformersResponse.swift */; };
 		3F0AFAE325F5FE310025519D /* EventsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AFA7825F366800025519D /* EventsResponse.swift */; };
 		3F0AFAE725F5FE350025519D /* PerformerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AFA7D25F36D910025519D /* PerformerResponse.swift */; };
-		3F0AFB2825F607BA0025519D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F0AF9E725F2B4480025519D /* Info.plist */; };
-		3F0AFB2D25F608600025519D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F0AFB2C25F608600025519D /* Info.plist */; };
 		3F0AFB3525F60A610025519D /* DateFormatTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AFB3425F60A610025519D /* DateFormatTest.swift */; };
-		3F0AFB3925F60B940025519D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F0AFB3825F60B940025519D /* Info.plist */; };
 		3F0AFB3A25F60BB60025519D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AF9D625F2B4450025519D /* AppDelegate.swift */; };
 		3F0AFB3C25F60E130025519D /* EventsManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AFB3B25F60E130025519D /* EventsManagerTest.swift */; };
 		655CE148F337D7E8309D1D75 /* Pods_FetchRewardsZHL_FetchRewardsZHLUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F749EB0973A72CF73CDD44 /* Pods_FetchRewardsZHL_FetchRewardsZHLUITests.framework */; };
@@ -437,7 +434,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0AFB2825F607BA0025519D /* Info.plist in Resources */,
 				3F0AF9E625F2B4480025519D /* LaunchScreen.storyboard in Resources */,
 				3F0AF9E325F2B4480025519D /* Assets.xcassets in Resources */,
 				3F0AF9DE25F2B4450025519D /* Main.storyboard in Resources */,
@@ -448,7 +444,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0AFB3925F60B940025519D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,7 +451,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0AFB2D25F608600025519D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

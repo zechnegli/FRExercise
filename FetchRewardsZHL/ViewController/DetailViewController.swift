@@ -57,7 +57,7 @@ class DetailViewController: UIViewController {
   
   override func viewDidLayoutSubviews() {
     super.viewDidLayoutSubviews()
-    // make textview fit to its content size
+    // make textviews fit to its content size
     let sizeThatFitsTextView = self.titleLabel.sizeThatFits(CGSize(width: self.titleLabel.frame.size.width, height: CGFloat(MAXFLOAT)))
     self.wrapperView.snp.updateConstraints { (make) in
       make.height.equalTo(sizeThatFitsTextView.height + 20)

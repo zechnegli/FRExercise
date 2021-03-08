@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="X3H-9j-CmL">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -17,20 +18,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CZq-3L-U5c">
-                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="CZq-3L-U5c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="a1V-Qc-7DF"/>
+                            <constraint firstItem="CZq-3L-U5c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="77m-3E-01F"/>
                             <constraint firstItem="CZq-3L-U5c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="b3n-dF-6Ms"/>
                             <constraint firstAttribute="bottom" secondItem="CZq-3L-U5c" secondAttribute="bottom" id="dUM-9E-LVc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CZq-3L-U5c" secondAttribute="trailing" id="hwB-yC-sYX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ywk-yj-bNl"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="tableView" destination="CZq-3L-U5c" id="BbY-eF-I1F"/>
                         <segue destination="XD5-t9-pvV" kind="show" identifier="detail" id="oDU-gI-Pfc"/>
@@ -51,6 +53,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="hUm-qs-F9E"/>
+                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UMX-Y4-SEz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -59,7 +62,7 @@
         <!--Navigation Controller-->
         <scene sceneID="6wW-Po-3Pz">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="X3H-9j-CmL" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" hidesBarsWhenKeyboardAppears="YES" id="X3H-9j-CmL" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="83G-ry-wzh">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

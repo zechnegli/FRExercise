@@ -7,7 +7,7 @@
 
 import UIKit
 import CoreData
-
+import SnapKit
 class ViewController: UIViewController {
   @IBOutlet weak var tableView: UITableView!
   private let tableViewCellReuseID = "viewCell"
@@ -75,7 +75,6 @@ class ViewController: UIViewController {
     searchController.searchResultsUpdater = self
     searchController.obscuresBackgroundDuringPresentation = false
     self.tableView.tableHeaderView = searchController.searchBar
-    navigationItem.searchController = searchController
     setSearchBar( searchBar: searchController.searchBar)
     definesPresentationContext = true
   }
