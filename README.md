@@ -1,5 +1,5 @@
 # FRExercise
-# Install guile
+# Install guide
 Run "pod install" to install all dependencies
 
 
