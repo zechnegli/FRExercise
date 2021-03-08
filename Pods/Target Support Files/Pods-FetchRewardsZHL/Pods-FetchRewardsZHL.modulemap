@@ -1,0 +1,6 @@
+framework module Pods_FetchRewardsZHL {
+  umbrella header "Pods-FetchRewardsZHL-umbrella.h"
+
+  export *
+  module * { export * }
+}
