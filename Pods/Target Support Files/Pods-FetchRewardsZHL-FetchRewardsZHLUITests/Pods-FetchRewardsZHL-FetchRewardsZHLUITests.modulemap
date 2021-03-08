@@ -1,6 +1,0 @@
-framework module Pods_FetchRewardsZHL_FetchRewardsZHLUITests {
-  umbrella header "Pods-FetchRewardsZHL-FetchRewardsZHLUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
